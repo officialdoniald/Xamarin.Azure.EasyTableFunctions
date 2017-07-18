@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XamarinAzureEasyTableFunctions</id>
+    <version>1.0.0</version>
+    <authors>Doniald</authors>
+    <owners>Doniald</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>With this Package you can use the essential database functions with your Azure Easy Tables. You don't have to write all of your Tables all functions, just create the Model of your Table with a string id and give it to the functions.</description>
+    <releaseNotes>Insert, Update, Delete and Get Database functions.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>azure database easytable</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
