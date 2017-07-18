@@ -5,16 +5,25 @@
     <version>1.0.0</version>
     <authors>Doniald</authors>
     <owners>Doniald</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <licenseUrl>https://github.com/officialdoniald/Xamarin.Azure.EasyTableFunctions</licenseUrl>
+    <projectUrl>https://github.com/officialdoniald/Xamarin.Azure.EasyTableFunctions</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>With this Package you can use the essential database functions with your Azure Easy Tables. You don't have to write all of your Tables all functions, just create the Model of your Table with a string id and give it to the functions.</description>
     <releaseNotes>Insert, Update, Delete and Get Database functions.</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>azure database easytable</tags>
     <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
+      <dependency id="Microsoft.Azure.Mobile.Client" version="3.1.0"/>
+      <dependency id="Microsoft.Bcl" version="1.1.10"/>
+      <dependency id="Microsoft.Bcl.Build" version="1.0.21"/>
+      <dependency id="Microsoft.Net.Http" version="2.2.29"/>
+      <dependency id="Newtonsoft.Json" version="6.0.4"/>
+      <dependency id="Xamarin.Forms" version="2.3.3.193"/>
     </dependencies>
   </metadata>
+  <files>
+    <file src="Xamarin.Azure.EasyTableFunctions\XamarinAzureEasyTableFunctions.cs" 
+          target="content\Xamarin.Azure.EasyTableFunctions\XamarinAzureEasyTableFunctions.cs">
+    </file>
+  </files>
 </package>

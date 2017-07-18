@@ -15,7 +15,7 @@ namespace Xamarin.Azure.EasyTableFunctions
             MobileService = new MobileServiceClient(AzureURL);
         }
 
-        public async Task<bool> DeleteInvMeDatabaseModel<T>(T model)
+        public async Task<bool> DeleteModel<T>(T model)
         {
             try
             {
@@ -30,7 +30,7 @@ namespace Xamarin.Azure.EasyTableFunctions
             }
         }
 
-        public async Task<IEnumerable<T>> GetInvMeDatabaseModel<T>(T model)
+        public async Task<IEnumerable<T>> GetModel<T>(T model)
         {
             try
             {
@@ -46,7 +46,7 @@ namespace Xamarin.Azure.EasyTableFunctions
             }
         }
 
-        public async Task<bool> InsertInvMeDatabaseModel<T>(T model)
+        public async Task<bool> InsertModel<T>(T model)
         {
             try
             {
@@ -61,7 +61,7 @@ namespace Xamarin.Azure.EasyTableFunctions
             }
         }
 
-        public async Task<bool> UpdateInvMeDatabaseModel<T>(T model)
+        public async Task<bool> UpdateModel<T>(T model)
         {
             try
             {
